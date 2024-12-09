@@ -18,7 +18,7 @@ this will install docker and the miner. the miner will start automatically.
 miner logs will be stored in logs/worker.log 
 
 
-Troubleshooting:<br/><br/>
+<br/><br/><b>Troubleshooting:</b><br/><br/>
 If you get the "cannot connect to the docker daemon" error. Try running this command and retry installation:
 
 systemctl start docker
