@@ -5,7 +5,8 @@ see https://www.fact0rn.io/ for blockchain details.
 Miner requires a username / password pair. Contact @fact-dog-millionaire
  on official fact0rn discord https://discord.gg/ZkyYC7Yb for credentials.
 
-Installation:
+<br/><br/>
+<b>Installation</b>:<br/>
 sudo su
 
 create a folder where you want to keep the miner.
