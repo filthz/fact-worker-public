@@ -5,8 +5,7 @@ see https://www.fact0rn.io/ for blockchain details.
 Miner requires a username / password pair. Contact @fact-dog-millionaire
  on official fact0rn discord https://discord.gg/ZkyYC7Yb for credentials.
 
-<br/><br/>
-<b>Installation</b>:<br/>
+<h2>Installation:</h2>
 sudo su
 
 create a folder where you want to keep the miner.
@@ -18,8 +17,7 @@ wget https://github.com/filthz/fact-worker-public/releases/download/1.0/setup_wo
 this will install docker and the miner. the miner will start automatically.
 miner logs will be stored in logs/worker.log 
 
-
-<br/><br/><b>Troubleshooting:</b><br/><br/>
+<h2>Troubleshooting:</h2>
 If you get the "cannot connect to the docker daemon" error. Try running this command and retry installation:
 
 systemctl start docker
