@@ -20,7 +20,7 @@ miner logs will be stored in logs/worker.log
 <h2>Update from a previous version</h2>
 go into the worker folder and execute:
 
-wget https://github.com/filthz/fact-worker-public/releases/download/1.1/update_worker.sh && sh update_worker.sh 
+wget -O https://github.com/filthz/fact-worker-public/releases/download/1.1/update_worker.sh && sh update_worker.sh 
 
 your worker will be updated to the most recent version and restarted.
 
