@@ -10,7 +10,7 @@ sudo su
 
 create a folder where you want to keep the miner.
 go into that folder and execute (replace USERNAME / PASSWORD with your credentials):
-Make sure to copy / paste the whole line (including 1.0 in the end)
+Make sure to copy / paste the whole line (including 1.1 in the end)
 
 wget https://github.com/filthz/fact-worker-public/releases/download/1.1/setup_worker.sh && sh setup_worker.sh USERNAME PASSWORD 1.1
 
