@@ -10,9 +10,9 @@ sudo su
 
 create a folder where you want to keep the miner.
 go into that folder and execute (replace USERNAME / PASSWORD with your credentials):
-Make sure to copy / paste the whole line (including 1.1 in the end)
+Make sure to copy / paste the whole line
 
-wget https://github.com/filthz/fact-worker-public/releases/download/1.1/setup_worker.sh && sh setup_worker.sh USERNAME PASSWORD 1.1
+wget -O https://github.com/filthz/fact-worker-public/releases/download/base_files/setup_worker.sh && sh setup_worker.sh USERNAME PASSWORD
 
 this will install docker and the miner. the miner will start automatically.
 miner logs will be stored in logs/worker.log 
@@ -20,7 +20,7 @@ miner logs will be stored in logs/worker.log
 <h2>Update from a previous version</h2>
 go into the worker folder and execute:
 
-wget -O https://github.com/filthz/fact-worker-public/releases/download/1.1/update_worker.sh && sh update_worker.sh 
+wget -O https://github.com/filthz/fact-worker-public/releases/download/base_files/update_worker.sh && sh update_worker.sh 
 
 your worker will be updated to the most recent version and restarted.
 
