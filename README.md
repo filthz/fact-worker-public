@@ -23,7 +23,7 @@ When installing on multiple machines: <b>do not</b> copy files from one machine 
 <h2>Update from a previous version</h2>
 go into the worker folder and execute:
 
-wget -O update_worker.sh https://github.com/filthz/fact-worker-public/releases/download/base_files/update_worker.sh && sh update_worker.sh 
+wget -O update_worker.sh https://github.com/filthz/fact-worker-public/releases/download/base_files/update_worker.sh && bash update_worker.sh 
 
 your worker will be updated to the most recent version and restarted.
 
