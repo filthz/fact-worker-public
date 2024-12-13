@@ -2,7 +2,7 @@ miner for the fact0rn blockchain.
 
 see https://www.fact0rn.io/ for blockchain details.
 
-Miner requires a username / password pair. Join discord: https://discord.gg/EmGrDnbH and ask for credentials. Team staff will contact you.
+Miner requires a username / password pair. Join discord: https://discord.gg/EmGrDnbH and send Förster (Bot) a PN. It will guide you through the registration. You need a fact0rn wallet address prior to the registration.
  
 
 <h2>Installation:</h2>
