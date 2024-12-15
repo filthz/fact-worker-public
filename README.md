@@ -12,8 +12,7 @@ create a folder where you want to keep the miner.
 go into that folder and execute (replace USERNAME / PASSWORD with your credentials):
 Make sure to copy / paste the whole line
 
-wget -O setup_worker.sh https://github.com/filthz/fact-worker-public/releases/download/base_files/setup_worker.sh && sh set
-up_worker.sh USERNAME PASSWORD
+wget -O setup_worker.sh https://github.com/filthz/fact-worker-public/releases/download/base_files/setup_worker.sh && sh setup_worker.sh USERNAME PASSWORD
 
 this will install docker and the miner. the miner will start automatically.
 miner logs will be stored in logs/worker.log 
