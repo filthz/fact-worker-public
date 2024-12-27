@@ -3,6 +3,10 @@ miner for the fact0rn blockchain.
 see https://www.fact0rn.io/ for blockchain details.
 
 Miner requires a username / password pair. Join discord: [[[https://discord.gg/EmGrDnbH](https://discord.gg/JU7Gzc587w)] and send <b>Förster</b> (Bot) a DM. It will guide you through the registration. You need a fact0rn wallet address prior to the registration.
+
+
+<h2>How many workers should I connect?</h2>
+If you have more than 30 CPU and a 4000 series GPU it makes sense to run a full cluster instead of single workers. In this case send a DM to fact-dog-millionaire on the discord server (or any other developers that are online)
  
 
 <h2>Installation:</h2>
