@@ -1,4 +1,4 @@
-miner for the fact0rn blockchain.
+<h1>Vooodoo Pool Miner for the fact0rn blockchain</h1>
 
 see https://www.fact0rn.io/ for blockchain details.
 
