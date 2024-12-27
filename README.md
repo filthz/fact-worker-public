@@ -7,7 +7,10 @@ Miner requires a username / password pair. Join discord: [[[https://discord.gg/E
 
 <h2>How many workers should I connect?</h2>
 If you have more than 30 CPU and a 4000 series GPU it makes sense to run a full cluster instead of single workers. In this case send a DM to fact-dog-millionaire on the discord server (or any other developers that are online)
- 
+
+<h2>Min specs?</h2> 
+AMD: recommended 5000x and up (including all epycs)
+Intel: Xeon starting with 2,7 GHz and Core-I starting with 11000er Series 
 
 <h2>Installation:</h2>
 sudo su
