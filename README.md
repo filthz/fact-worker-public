@@ -1,8 +1,11 @@
-<h1>Vooodoo Pool Miner for the fact0rn blockchain</h1>
+<h1>Voodoo Pool Miner for the fact0rn blockchain</h1>
 
 see https://www.fact0rn.io/ for blockchain details.
 
-Miner requires a username / password pair. Join discord: [[[https://discord.gg/EmGrDnbH](https://discord.gg/JU7Gzc587w)] and send <b>Förster</b> (Bot) a DM. It will guide you through the registration. You need a fact0rn wallet address prior to the registration.
+A great explanatory video made by <b>madelectronengineeringrick</b>
+can be found here https://www.youtube.com/watch?v=pXboUJ72a_M
+
+Miner requires a username / password pair. Join discord: https://discord.com/invite/JU7Gzc587w and send <b>Förster</b> (Bot) a DM. It will guide you through the registration. You need a fact0rn wallet address prior to the registration.
 
 
 <h2>How many workers should I connect?</h2>
