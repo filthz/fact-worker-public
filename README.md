@@ -22,7 +22,7 @@ create a folder where you want to keep the miner.
 go into that folder and execute (replace USERNAME / PASSWORD with your credentials):
 Make sure to copy / paste the whole line
 
-wget -O setup_worker.sh https://github.com/filthz/fact-worker-public/releases/download/base_files/setup_worker.sh && sh setup_worker.sh USERNAME PASSWORD
+<code>wget -O setup_worker.sh https://github.com/filthz/fact-worker-public/releases/download/base_files/setup_worker.sh && sh setup_worker.sh USERNAME PASSWORD</code>
 
 this will install docker and the miner. the miner will start automatically.
 miner logs will be stored in logs/worker.log 
@@ -32,11 +32,15 @@ When installing on multiple machines: <b>do not</b> copy files from one machine 
 <h2>Update from a previous version</h2>
 go into the worker folder and execute:
 
-wget -O update_worker.sh https://github.com/filthz/fact-worker-public/releases/download/base_files/update_worker.sh && bash update_worker.sh 
+<code>wget -O update_worker.sh https://github.com/filthz/fact-worker-public/releases/download/base_files/update_worker.sh && bash update_worker.sh</code>
 
 your worker will be updated to the most recent version and restarted.
 
 <h2>Troubleshooting:</h2>
+If HiveOS complains (and reboots) because of high LA, disable the watchdog:
+
+<code>systemctl stop hive-watchdog && systemctl disable hive-watchdog</code>
+
 If you get the "cannot connect to the docker daemon" error. Try running this command and retry installation:
 
-systemctl enable --now docker
+<code>systemctl enable --now docker</code>
