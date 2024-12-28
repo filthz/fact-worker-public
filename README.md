@@ -39,4 +39,4 @@ your worker will be updated to the most recent version and restarted.
 <h2>Troubleshooting:</h2>
 If you get the "cannot connect to the docker daemon" error. Try running this command and retry installation:
 
-systemctl start docker
+systemctl enable --now docker
