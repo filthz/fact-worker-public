@@ -37,10 +37,10 @@ go into the worker folder and execute:
 your worker will be updated to the most recent version and restarted.
 
 <h2>Troubleshooting:</h2>
-If HiveOS complains (and reboots) because of high LA, disable the watchdog:
+If HiveOS complains (and reboots) because of high LA, disable the watchdog:<br/>
 <code>systemctl stop hive-watchdog && systemctl disable hive-watchdog</code>
 
-If you get the "cannot connect to the docker daemon" error. Try running this command and retry installation:
+If you get the "cannot connect to the docker daemon" error. Try running this command and retry installation:<br/>
 <code>systemctl enable --now docker</code>
 
 <h2>Stopping and removing the container</h2>
