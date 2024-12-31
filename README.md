@@ -40,8 +40,14 @@ your worker will be updated to the most recent version and restarted.
 If HiveOS complains (and reboots) because of high LA, disable the watchdog:<br/>
 <code>systemctl stop hive-watchdog && systemctl disable hive-watchdog</code><br/><br/>
 
-If you get the "cannot connect to the docker daemon" error. Try running this command and retry installation:<br/>
-<code>systemctl enable --now docker</code>
+If you get the "cannot connect to the docker daemon" error (especially common on HiveOS). Try running this commands and retry installation:<br/>
+<code>
+sudo apt-get install -y iptables arptables ebtables
+sudo update-alternatives --set iptables /usr/sbin/iptables-legacy
+sudo update-alternatives --set ip6tables /usr/sbin/ip6tables-legacy
+systemctl enable --now docker
+systemctl restart docker
+</code>
 
 <h2>Stopping and removing the container</h2>
 <code>sudo docker stop $(sudo docker ps -aq -f name=fact-worker); sudo docker rm $(sudo docker ps -aq -f name=fact-worker)</code>
