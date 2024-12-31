@@ -17,7 +17,7 @@ Intel: Xeon starting with 2,7 GHz and Core-I starting with 11000er Series <br/>
 Each worker will consume ~10Mbit upload
 
 <h2>Installation:</h2>
-sudo su
+<code>sudo su</code><br/>
 
 create a folder where you want to keep the miner.
 go into that folder and execute (replace USERNAME / PASSWORD with your credentials):
