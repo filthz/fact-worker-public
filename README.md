@@ -11,6 +11,7 @@ Miner requires a username / password pair. Join discord: https://discord.com/inv
 Keep in mind that each worker requires around 10Mbit upload bandwidth. 
 
 <h2>Min specs?</h2> 
+16 GB RAM (32 GB on a EPYC)<br/>
 AMD: recommended 5000x and up (including all epycs)<br/>
 Intel: Xeon starting with 2,7 GHz and Core-I starting with 11000er Series <br/>
 Each worker will consume ~10Mbit upload
@@ -41,8 +42,8 @@ If HiveOS complains (and reboots) because of high LA, disable the watchdog:<br/>
 <code>systemctl stop hive-watchdog && systemctl disable hive-watchdog</code><br/><br/>
 
 If you get the "cannot connect to the docker daemon" error (especially common on HiveOS). Try running this commands and retry installation:<br/>
-<code>
-sudo apt-get install -y iptables arptables ebtables
+
+<code>sudo apt-get install -y iptables arptables ebtables
 sudo update-alternatives --set iptables /usr/sbin/iptables-legacy
 sudo update-alternatives --set ip6tables /usr/sbin/ip6tables-legacy
 systemctl enable --now docker
