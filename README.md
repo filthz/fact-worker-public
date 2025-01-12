@@ -12,7 +12,7 @@ can be found here https://www.youtube.com/watch?v=pXboUJ72a_M
 Miner requires a username / password pair. Join discord: https://discord.com/invite/JU7Gzc587w and send <b>Förster</b> (Bot) a DM. It will guide you through the registration. You need a fact0rn wallet address prior to the registration.
 
 <h2>How many workers should I connect?</h2>
-Keep in mind that each worker requires around 10Mbit upload bandwidth. 
+Keep in mind that each worker requires around 5 Mbit upload bandwidth. 
 
 <h2>Min specs?</h2> 
 16 GB RAM (32 GB on a EPYC)<br/>
