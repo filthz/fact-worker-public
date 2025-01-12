@@ -41,6 +41,10 @@ go into the worker folder and execute:
 
 your worker will be updated to the most recent version and restarted.
 
+<h2>Mining in windows:</h2>
+Install WSL as described here https://learn.microsoft.com/de-de/windows/wsl/install <br/>
+Then follow the setup steps above
+
 <h2>Troubleshooting:</h2>
 If HiveOS complains (and reboots) because of high LA, disable the watchdog:<br/>
 <code>systemctl stop hive-watchdog && systemctl disable hive-watchdog</code><br/><br/>
