@@ -34,16 +34,16 @@ miner logs will be stored in logs/worker.log
 
 When installing on multiple machines: <b>do not</b> copy files from one machine to other. Instead execute the installation script on each, otherwise there will be issues.
 
+<h2>Mining in windows:</h2>
+Install WSL as described here https://learn.microsoft.com/de-de/windows/wsl/install <br/>
+Then follow the setup steps above
+
 <h2>Update from a previous version</h2>
 go into the worker folder and execute:
 
 <code>wget -O update_worker.sh https://github.com/filthz/fact-worker-public/releases/download/base_files/update_worker.sh && bash update_worker.sh</code>
 
 your worker will be updated to the most recent version and restarted.
-
-<h2>Mining in windows:</h2>
-Install WSL as described here https://learn.microsoft.com/de-de/windows/wsl/install <br/>
-Then follow the setup steps above
 
 <h2>Troubleshooting:</h2>
 If HiveOS complains (and reboots) because of high LA, disable the watchdog:<br/>
