@@ -1,7 +1,5 @@
 <h1>Voodoo Pool Miner for the fact0rn blockchain</h1>
 
-approximate earnings (avg) for a AMD Ryzen 9 7950X 16-Core Processor: <b>0.14 fact / day</b> (fees already deducted)
-
 <hr/>
 
 see https://www.fact0rn.io/ for blockchain details.
