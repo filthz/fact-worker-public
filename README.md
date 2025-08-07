@@ -2,7 +2,7 @@
 
 <hr/>
 
-Pool url: https://fact0rn.wtf
+Pool url: https://fact0rn.wtf <br/>
 Project url: https://www.fact0rn.io/ 
 
 A great explanatory video made by <b>madelectronengineeringrick</b>
