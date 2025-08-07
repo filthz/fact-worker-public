@@ -3,8 +3,7 @@
 <hr/>
 
 Pool url: https://fact0rn.wtf
-
-see https://www.fact0rn.io/ for blockchain details.
+Project url: https://www.fact0rn.io/ 
 
 A great explanatory video made by <b>madelectronengineeringrick</b>
 can be found here https://www.youtube.com/watch?v=pXboUJ72a_M
