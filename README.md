@@ -20,7 +20,7 @@ Keep in mind that each worker requires around 5 Mbit upload bandwidth.
 16 GB RAM (32 GB on a EPYC)<br/>
 AMD: recommended 5000x and up (including all epycs)<br/>
 Intel: Xeon scalable 1 or newer and Core-I starting with 11000er Series <br/>
-Each worker will consume ~5Mbit upload
+Each worker will consume ~2Mbit upload
 
 <h2>Installation:</h2>
 <code>sudo su</code><br/>
