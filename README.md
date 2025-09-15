@@ -2,7 +2,7 @@
 
 <hr/>
 
-Pool url: https://fact0rn.wtf <br/>
+Pool url: [https://thefactory.solutions](https://thefactory.solutions/) <br/>
 Project url: https://www.fact0rn.io/ 
 
 Discord: https://discord.com/invite/JU7Gzc587w<br/>
