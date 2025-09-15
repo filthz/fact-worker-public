@@ -1,4 +1,4 @@
-<h1>Voodoo Pool Miner for the fact0rn blockchain</h1>
+<h1>The FACTORy Pool Miner for the factor blockchain</h1>
 
 <hr/>
 
