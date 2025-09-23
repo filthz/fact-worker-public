@@ -3,7 +3,8 @@
 <hr/>
 
 Pool url: [https://thefactory.solutions](https://thefactory.solutions/) <br/>
-Project url: https://www.fact0rn.io/ 
+Project url: https://projectfactor.io
+Project email: team@projectfactor.io
 
 Discord: https://discord.com/invite/JU7Gzc587w<br/>
 Telegram: https://t.me/+T_c_2LLqHBthOTEy
