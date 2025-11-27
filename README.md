@@ -7,7 +7,7 @@ Project url: https://projectfactor.io
 Project email: team@projectfactor.io
 
 Discord: https://discord.com/invite/JU7Gzc587w<br/>
-Telegram: https://t.me/+T_c_2LLqHBthOTEy
+
 
 A great explanatory video made by <b>madelectronengineeringrick</b>
 can be found here https://www.youtube.com/watch?v=pXboUJ72a_M
