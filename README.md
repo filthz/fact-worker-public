@@ -30,10 +30,10 @@ create a folder where you want to keep the miner.
 go into that folder and execute (replace USERNAME / PASSWORD with your credentials):
 Make sure to copy / paste the whole line
 
-CPU Miner
+<h3>CPU Miner</h3>
 <code>wget -O setup_worker.sh https://github.com/filthz/fact-worker-public/releases/download/base_files/setup_worker.sh && sh setup_worker.sh USERNAME PASSWORD</code>
 
-GPU Miner
+<h3>GPU Miner</h3>
 <code>wget -O setup_worker.sh https://github.com/filthz/fact-worker-public/releases/download/base_files/setup_worker.sh && sh setup_worker.sh USERNAME PASSWORD true</code>
 
 this will install docker and the miner. the miner will start automatically.
