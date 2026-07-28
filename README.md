@@ -36,7 +36,7 @@ Make sure to copy / paste the whole line
 <h3>GPU Miner</h3>
 <code>wget -O setup_worker.sh https://github.com/filthz/fact-worker-public/releases/download/base_files/setup_worker.sh && sh setup_worker.sh USERNAME PASSWORD true</code>
 
-<br/>
+<br/><br/>
 
 This will install docker and the miner. the miner will start automatically.
 miner logs will be stored in logs/worker.log 
