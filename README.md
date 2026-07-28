@@ -36,8 +36,9 @@ Make sure to copy / paste the whole line
 <h3>GPU Miner</h3>
 <code>wget -O setup_worker.sh https://github.com/filthz/fact-worker-public/releases/download/base_files/setup_worker.sh && sh setup_worker.sh USERNAME PASSWORD true</code>
 
+<br/><br/>
 
-this will install docker and the miner. the miner will start automatically.
+This will install docker and the miner. the miner will start automatically.
 miner logs will be stored in logs/worker.log 
 
 When installing on multiple machines: <b>do not</b> copy files from one machine to other. Instead execute the installation script on each, otherwise there will be issues.
