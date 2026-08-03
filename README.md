@@ -43,7 +43,7 @@ miner logs will be stored in logs/worker.log
 
 When installing on multiple machines: <b>do not</b> copy files from one machine to other. Instead execute the installation script on each, otherwise there will be issues.
 
-<h2>Mining in windows:</h2>
+<h2>Mining in windows (CPU only):</h2>
 Install WSL as described here https://learn.microsoft.com/de-de/windows/wsl/install <br/>
 Then follow the setup steps above
 
